@@ -10,7 +10,7 @@ git config --global user.name "[name]"
 git config --global user.email "[email address]"
 git config --global color.ui auto
 ```
-### Boom ! ! !
+### Basics
 
   ```sh
   git clone https_url
@@ -35,5 +35,8 @@ git config --global color.ui auto
   
 # pushing local branch
   git push
+  
+# pushing local branch to upstream master branch
+  git push origin main/master
 
   ```
